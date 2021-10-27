@@ -1,0 +1,214 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.container{
+	background-color: #eaeaea;
+	font-family: arial;
+	width: 1000px;
+	margin: auto;
+}
+
+/*header*/
+.header{
+	padding: 20px 40px;
+	background-color: #1597E5;
+	display: grid;
+	grid-template-columns: 10fr 1fr;
+}
+
+.header h2{
+	color: white;
+}
+
+.header a{
+	text-decoration: none;
+}
+
+.header p{
+	color: yellow;
+	font-weight: 1000;
+}
+
+/*navigation*/
+.nav{
+	background-color: black;
+}
+
+.nav ul{
+	display: flex;
+	padding: 10px 0;
+	list-style: none;
+}
+
+.nav ul li a{
+	text-decoration: none;
+	padding: 10px 40px;
+	color: white;
+}
+
+.nav ul li a:hover{
+	background-color: gray;
+}
+
+
+/*home*/
+.home{
+	padding: 20px 40px;
+}
+
+.home h3{
+	background-color: #A2D2FF;
+	padding: 10px;
+	color: #333;
+	text-shadow: 1px 1px 0 #1597E5;
+}
+
+.home table textarea{
+	width: 300px;
+	height: 200px;
+	border-radius: 7px;
+	margin-top: 10px;
+	padding: 10px;
+}
+
+button{
+	padding: 5px 30px;
+	margin-top: 10px;
+	background-color: blue;
+	color: white;
+	border-radius: 4px;
+	border: 1px solid black;
+}
+
+button:hover{
+	background-color: navy;
+}
+
+.table{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.t2 input{
+	padding: 5px;
+	border-radius: 3px;
+	border: 1px solid black;
+}
+
+/*register*/
+.register{
+	padding: 20px 40px;
+}
+
+.register h3{
+	background-color: #A2D2FF;
+	padding: 10px;
+	color: #333;
+	text-shadow: 1px 1px 0 #1597E5;	
+}
+
+.wrap{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 10px;
+}
+
+/*jenis*/
+.jenis{
+	background-color: white;margin-top: 10px;
+	padding: 10px 20px;
+}
+
+.jenis h4{
+	padding: 10px;
+	background-color: gray;
+	color: blue;
+	text-shadow: 1px 1px 0 white;
+}
+
+.vaksin{
+	background-color: white;
+	margin-top: 10px;
+}
+
+.vaksin p{
+	padding: 10px 50px;
+	background-color: #B2F9FC;
+}
+
+.vaksin table tr{
+	margin-bottom: 10px;
+}
+
+.vaksin input{
+	margin-left: 20px;
+	width: 20px;
+	height: 20px;
+}
+
+/*session*/
+.session{
+	background-color: white;margin-top: 10px;
+	padding: 10px 20px;
+}
+
+.session h4{
+	padding: 10px;
+	background-color: gray;
+	color: blue;
+	text-shadow: 1px 1px 0 white;
+	margin-bottom: 10px;
+}
+
+.session{
+	background-color: white;
+	margin-top: 10px;
+}
+
+.session p{
+	padding: 10px 50px;
+	background-color: #B2F9FC;
+}
+
+.session table tr{
+	margin-bottom: 10px;
+}
+
+.session input{
+	margin-left: 20px;
+	width: 20px;
+	height: 20px;
+}
+
+
+/*location*/
+.location{
+	padding: 10px 40px;
+	padding-bottom: 30px;
+}
+
+.maps{
+	height: 200px;
+	width: 920px;
+	margin-top: 10px;
+}
+
+.location h3{
+	background-color: #A2D2FF;
+	padding: 10px;
+	color: #333;
+	text-shadow: 1px 1px 0 #1597E5;	
+}
+
+.footer{
+	background: linear-gradient(to bottom,black,#1597E5);
+	padding: 10px 40px;
+}
+
+.footer p{
+	color: whitesmoke;
+	text-align: center;
+}
+
